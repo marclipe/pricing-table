@@ -1,18 +1,23 @@
+import { ContainerEssentials, Price } from "./styles";
+
 export function Essentials() {
   return (
-    <div>
-      <div>
+    <ContainerEssentials>
+      <section>
         <p>Para você começar</p>
-        <h3>Essentials </h3>
-        <h2>R$ 19,97/mês</h2>
-      </div>
-      <div>
-        <a href="">Assinar agora</a>
-      </div>
-      <div>
-        <span>Até 3 usuários</span>
-        <span>Autoatendimento</span>
-      </div>
-    </div>
+        <Price>
+          <h3>Essentials </h3>
+          <h3>R$ 19,97/mês</h3>
+        </Price>
+        <div>
+          <a href="">Assinar agora</a>
+        </div>
+        <hr />
+        <div>
+          <span>Até 3 usuários</span>
+          <span>Autoatendimento</span>
+        </div>
+      </section>
+    </ContainerEssentials>
   );
 }
