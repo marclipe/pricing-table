@@ -1,4 +1,4 @@
-import { ContainerEssentials, Price } from "./styles";
+import { ContainerEssentials, Price, ButtonPrice } from "./styles"
 
 export function Essentials() {
   return (
@@ -6,12 +6,12 @@ export function Essentials() {
       <section>
         <p>Para você começar</p>
         <Price>
-          <h3>Essentials </h3>
+          <h2>Essentials </h2>
           <h3>R$ 19,97/mês</h3>
         </Price>
-        <div>
-          <a href="">Assinar agora</a>
-        </div>
+        <ButtonPrice>
+          <a href="#">Assinar agora</a>
+        </ButtonPrice>
         <hr />
         <div>
           <span>Até 3 usuários</span>

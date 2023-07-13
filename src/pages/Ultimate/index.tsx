@@ -1,4 +1,4 @@
-import { ContainerUltimate } from "../Essentials/styles";
+import { ContainerUltimate } from "./styles";
 
 export const Ultimate = () => {
   return (

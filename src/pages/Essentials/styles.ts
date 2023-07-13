@@ -25,8 +25,20 @@ export const ContainerEssentials = styled.div`
     padding-bottom: 0.5rem;
   }
 
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: ${(props) => props.theme["gray-900"]};
+  }
+
+  h3 {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: ${(props) => props.theme["gray-900"]};
+  }
+
   hr {
-    width: 320px;
+    width: 20rem;
     border: 1px solid ${(props) => props.theme["gray-200"]};
     margin: 2rem 0;
   }
@@ -34,5 +46,28 @@ export const ContainerEssentials = styled.div`
 
 export const Price = styled.div`
   display: flex;
+  align-items: center;
   gap: 3.063rem;
+`;
+
+export const ButtonPrice = styled.div`
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  a {
+    border: 1px solid ${(props) => props.theme["gray-800"]};
+    width: 20rem;
+    height: 3.5rem;
+
+    cursor: pointer;
+    padding: 16px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+
+    font-size: 1rem;
+    font-weight: 700;
+    color: ${props => props.theme["gray-800"]};
+  }
 `;
