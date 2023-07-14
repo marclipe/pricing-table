@@ -71,3 +71,19 @@ export const ButtonPrice = styled.div`
     color: ${props => props.theme["gray-800"]};
   }
 `;
+
+export const ItemPlans = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  div {
+    display: flex;
+    align-items: center;
+
+    span {
+      margin-right: auto;
+      margin-left: 0.5rem;
+    }
+  }
+`; 

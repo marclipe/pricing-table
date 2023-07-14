@@ -1,4 +1,5 @@
-import { ContainerEssentials, Price, ButtonPrice } from "./styles"
+import { CheckFat, WarningCircle } from "@phosphor-icons/react";
+import { ContainerEssentials, Price, ButtonPrice, ItemPlans } from "./styles"
 
 export function Essentials() {
   return (
@@ -13,10 +14,18 @@ export function Essentials() {
           <a href="#">Assinar agora</a>
         </ButtonPrice>
         <hr />
-        <div>
-          <span>Até 3 usuários</span>
-          <span>Autoatendimento</span>
-        </div>
+        <ItemPlans>
+          <div>
+              <CheckFat color="#1B873F" size={20} weight="duotone" />
+              <span>Até 3 usuários</span>
+              <WarningCircle color="#475569" size={20} />
+          </div>
+          <div>
+            <CheckFat color="#1B873F" size={20} weight="duotone" />
+            <span>Autoatendimento</span>
+            <WarningCircle color="#475569" size={20} />
+          </div>
+        </ItemPlans>
       </section>
     </ContainerEssentials>
   );
