@@ -42,12 +42,24 @@ export const ContainerEssentials = styled.div`
     border: 1px solid ${(props) => props.theme["gray-200"]};
     margin: 2rem 0;
   }
+
+  @media screen and (max-width: 600px) {
+    width: 320px;
+
+    hr {
+      width: 100%;
+    }
+  }
 `;
 
 export const Price = styled.div`
   display: flex;
   align-items: center;
   gap: 3.063rem;
+
+  @media screen and (max-width: 600px) {
+    gap: 2.063rem;
+  }
 `;
 
 export const ButtonPrice = styled.div`
@@ -68,7 +80,11 @@ export const ButtonPrice = styled.div`
 
     font-size: 1rem;
     font-weight: 700;
-    color: ${props => props.theme["gray-800"]};
+    color: ${(props) => props.theme["gray-800"]};
+  }
+
+  @media screen and (max-width: 600px) {
+    a {width: 100%;}
   }
 `;
 

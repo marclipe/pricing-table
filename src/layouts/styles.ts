@@ -14,7 +14,7 @@ export const LayoutContainer = styled.div`
   flex-direction: column;
 
   @media screen and (max-width: 769px) {
-    height: auto;
+    height: 100vh;
     margin: auto;
   }
 `;

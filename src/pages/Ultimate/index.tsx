@@ -1,14 +1,16 @@
-import { ContainerUltimate } from "./styles";
+import { ContainerUltimate, TitleConteiner, Advantage } from "./styles";
 
 export const Ultimate = () => {
   return (
     <ContainerUltimate>
-      <span>Mais vantajoso</span>
-      <p>Para você decolar</p>
-      <div>
-        <h3>Ultimate</h3>
-        <h3>R$ 29,97/mês</h3>
-      </div>
+      <Advantage>Mais vantajoso</Advantage>
+      <TitleConteiner>
+        <p>Para você decolar</p>
+        <div>
+          <h3>Ultimate</h3>
+          <h3>R$ 29,97/mês</h3>
+        </div>
+      </TitleConteiner>
       <a href="#">Assinar agora</a>
       <div>
         <span>Usuários ilimitados</span>
