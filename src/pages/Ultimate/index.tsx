@@ -1,4 +1,5 @@
-import { ContainerUltimate, TitleConteiner, Advantage } from "./styles";
+import { CheckFat, WarningCircle } from "@phosphor-icons/react";
+import { ContainerUltimate, TitleConteiner, Advantage, ContainerButton, ItemPlans } from "./styles";
 
 export const Ultimate = () => {
   return (
@@ -11,13 +12,48 @@ export const Ultimate = () => {
           <h3>R$ 29,97/mês</h3>
         </div>
       </TitleConteiner>
-      <a href="#">Assinar agora</a>
-      <div>
-        <span>Usuários ilimitados</span>
-        <span>Suporte 24/7</span>
-        <span>CSM Dedicado</span>
-        <span>Treinamentos</span>
-      </div>
+      <ContainerButton>
+        <button>Assinar agora</button>
+      </ContainerButton>
+      <hr />
+      <ItemPlans>
+        <div className="containerPlans">
+          <div>
+            <CheckFat color="#1B873F" size={20} weight="duotone" />
+            <span>Usuários ilimitados</span>
+          </div>
+          <div className="warningCircle">
+            <WarningCircle color="#475569" size={20} />
+          </div>
+        </div>
+        <div className="containerPlans">
+          <div>
+            <CheckFat color="#1B873F" size={20} weight="duotone" />
+            <span>Suporte 24/7</span>
+          </div>
+          <div className="warningCircle">
+            <WarningCircle color="#475569" size={20} />
+          </div>
+        </div>
+        <div className="containerPlans">
+          <div>
+            <CheckFat color="#1B873F" size={20} weight="duotone" />
+            <span>CSM Dedicado</span>
+          </div>
+          <div className="warningCircle">
+            <WarningCircle color="#475569" size={20} />
+          </div>
+        </div>
+        <div className="containerPlans">
+          <div>
+            <CheckFat color="#1B873F" size={20} weight="duotone" />
+            <span>Treinamentos</span>
+          </div>
+          <div className="warningCircle">
+            <WarningCircle color="#475569" size={20} />
+          </div>
+        </div>
+      </ItemPlans>
     </ContainerUltimate>
   );
 }
