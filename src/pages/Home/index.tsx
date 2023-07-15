@@ -19,7 +19,7 @@ export function Home(){
           alicerce de todas as grandes conquistas empresariais. Ela envolve
           definir metas claras, identificar oportunidades, compreender o mercado
           e desenvolver um plano de ação sólido para alcançar resultados
-          excepcionais. Na [nome da sua empresa], nossa equipe é especializada
+          excepcionais. Nossa equipe é especializada
           em desenvolver estratégias personalizadas, adaptadas às necessidades e
           objetivos exclusivos do seu negócio. Queremos ajudar você a navegar
           pelas complexidades do mercado, aproveitar as tendências emergentes e

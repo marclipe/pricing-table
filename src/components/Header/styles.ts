@@ -3,7 +3,6 @@ import { styled } from "styled-components";
 export const ContainerHeader = styled.header`
   display: flex;
   gap: 25rem;
-  /* justify-content: space-between; */
 
   @media screen and (max-width: 768px) {
     gap: 2rem;
