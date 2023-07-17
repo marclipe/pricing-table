@@ -4,7 +4,6 @@ export const HomeContainer = styled.main`
   display: flex;
   gap: 2rem;
   padding-top: 2rem;
-  /* align-items: center; */
   justify-content: center;
   img {
     width: 400px;

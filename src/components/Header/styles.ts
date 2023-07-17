@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 
 export const ContainerHeader = styled.header`
   display: flex;
-  gap: 25rem;
+  gap: 20rem;
 
   @media screen and (max-width: 768px) {
     gap: 2rem;
