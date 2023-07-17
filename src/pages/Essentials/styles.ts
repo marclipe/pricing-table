@@ -10,7 +10,7 @@ export const ContainerEssentials = styled.div`
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding: 48px 32px 32px 32px;
+  padding: 3rem 2rem 2rem 2rem;
   flex-direction: column;
   gap: 10px;
 
@@ -43,8 +43,9 @@ export const ContainerEssentials = styled.div`
     margin: 2rem 0;
   }
 
-  @media screen and (max-width: 600px) {
-    width: 320px;
+  @media screen and (max-width: 480px) {
+    width: 100%;
+    padding: 1.5rem;
 
     hr {
       width: 100%;
@@ -55,10 +56,19 @@ export const ContainerEssentials = styled.div`
 export const Price = styled.div`
   display: flex;
   align-items: center;
-  gap: 3.063rem;
+  gap: 6rem;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 480px) {
     gap: 2.063rem;
+  }
+
+  @media screen and (max-width: 320px) {
+    gap: 2.063rem;
+
+    h2,
+    h3 {
+      font-size: 1rem;
+    }
   }
 `;
 
@@ -83,8 +93,16 @@ export const ButtonPrice = styled.div`
     color: ${(props) => props.theme["gray-800"]};
   }
 
-  @media screen and (max-width: 600px) {
-    a {width: 100%;}
+  @media screen and (max-width: 480px) {
+    a {
+      width: 17rem;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    a {
+      width: 100%;
+    }
   }
 `;
 
