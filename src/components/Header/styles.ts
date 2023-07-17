@@ -29,9 +29,15 @@ export const NavLinks = styled.nav`
     border-radius: 4px;
   }
 
-  @media screen and (max-width: 769px) {
+  @media screen and (max-width: 600px) {
     gap: 1rem;
     margin-bottom: 2rem;
+  }
+
+  @media screen and (max-width: 320px) {
+    gap: 0.625rem;
+    margin-bottom: 2rem;
+    flex-direction: column;
   }
 `;
 
