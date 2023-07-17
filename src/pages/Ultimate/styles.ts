@@ -13,8 +13,21 @@ export const ContainerUltimate = styled.section`
 
   hr {
     width: 20rem;
-    border: 1px solid ${props => props.theme["gray-700"]};
+    border: 1px solid ${(props) => props.theme["gray-700"]};
     margin: 2rem 0;
+  }
+
+  @media screen and (max-width: 600px) {
+    width: 100%;
+    align-items: center;
+
+    hr {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    padding: 0 1rem 1rem 1rem;
   }
 `;
 
@@ -29,9 +42,26 @@ export const TitleConteiner = styled.div`
 
   div {
     display: flex;
-    gap: 3.063rem;
+    gap: 7rem;
+    align-items: center;
+
+    h2 {
+      color: ${(props) => props.theme["gray-50"]};
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+
     h3 {
       color: ${(props) => props.theme["gray-50"]};
+      font-size: 1.125rem;
+      font-weight: 700;
+    }
+  }
+
+  @media screen and (max-width: 769px) {
+    div {
+      justify-content: space-evenly;
+      gap: 2.5rem;
     }
   }
 `;
@@ -70,13 +100,21 @@ export const ContainerButton = styled.div`
     color: ${(props) => props.theme.white};
     font-weight: 700;
   }
+
+  @media screen and (max-width: 600px) {
+    button {
+      width: 17rem;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    button {
+      width: 100%;
+    }
+  }
 `;
 
 export const ItemPlans = styled.div`
-  /* display: flex;
-  flex-direction: column;
-  gap: 1rem; */
-
   div {
     display: flex;
     align-items: center;
@@ -93,5 +131,17 @@ export const ItemPlans = styled.div`
     gap: 8rem;
     align-items: center;
     flex-direction: row;
+  }
+
+  @media screen and (max-width: 480px) {
+    .containerPlans {
+      gap: 4rem;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    .containerPlans {
+      gap: 2rem;
+    }
   }
 `; 

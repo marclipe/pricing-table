@@ -8,7 +8,7 @@ export const Ultimate = () => {
       <TitleConteiner>
         <p>Para você decolar</p>
         <div>
-          <h3>Ultimate</h3>
+          <h2>Ultimate</h2>
           <h3>R$ 29,97/mês</h3>
         </div>
       </TitleConteiner>
