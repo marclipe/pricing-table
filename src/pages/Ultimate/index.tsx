@@ -1,17 +1,17 @@
 import { CheckFat, WarningCircle } from "@phosphor-icons/react";
-import { ContainerUltimate, TitleConteiner, Advantage, ContainerButton, ItemPlans } from "./styles";
+import { ContainerUltimate, TitleContainer, Advantage, ContainerButton, ItemPlans } from "./styles";
 
 export const Ultimate = () => {
   return (
     <ContainerUltimate>
       <Advantage>Mais vantajoso</Advantage>
-      <TitleConteiner>
+      <TitleContainer>
         <p>Para você decolar</p>
         <div>
           <h2>Ultimate</h2>
           <h3>R$ 29,97/mês</h3>
         </div>
-      </TitleConteiner>
+      </TitleContainer>
       <ContainerButton>
         <button>Assinar agora</button>
       </ContainerButton>

@@ -31,7 +31,7 @@ export const ContainerUltimate = styled.section`
   }
 `;
 
-export const TitleConteiner = styled.div`
+export const TitleContainer = styled.div`
   p {
     color: ${(props) => props.theme["purple-100"]};
     font-size: 0.875rem;
